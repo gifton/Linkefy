@@ -2,6 +2,8 @@
 import Foundation
 import UIKit
 
+// UITextField is where a user can input text
+// constrained to a single line, cannot be increased in height to accomodate multiple lines (see UITextView)
 //add padding to UITextfield
 extension UITextField {
     func addLeftPadding(size: CGFloat) {

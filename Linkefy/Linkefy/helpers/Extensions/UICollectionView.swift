@@ -1,6 +1,9 @@
 import Foundation
 import UIKit
 
+// collectionViews allow us to create complext tables
+// horizontally, vertically, unique sizes and widths
+// using objects called UICollectionViewCell
 public extension UICollectionView {
     // - Parameter completion: completion handler to run after reloadData finishes.
     func reloadData(_ completion: @escaping () -> Void) {

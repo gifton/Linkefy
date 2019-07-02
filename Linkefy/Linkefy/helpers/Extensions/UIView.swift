@@ -1,15 +1,8 @@
-//
-//  UIView.swift
-//  Rethought
-//
-//  Created by Dev on 4/13/19.
-//  Copyright © 2019 Wesaturate. All rights reserved.
-//
 
 import Foundation
 import UIKit
 
-
+// foundation of displaying content.  much like <View> or <div>
 extension UIView {
     // In order to create computed properties for extensions, we need a key to
     // store and access the stored property

@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 
+// UITextView is where a user can input text
 //add padding to UITextView
 extension UITextView {
     private struct AssociatedKeys {

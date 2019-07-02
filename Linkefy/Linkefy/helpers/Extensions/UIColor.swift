@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 
+// UIColor does not base its system off of hex, rather RGB(a)
 //allows input as hex values instead of standard UIcolor init
 public extension UIColor {
     

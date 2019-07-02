@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 
+// UILabel is the standard way to show immutable text on screen
 extension UILabel {
     private struct AssociatedKeys {
         static var padding = UIEdgeInsets()

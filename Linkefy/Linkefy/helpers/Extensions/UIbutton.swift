@@ -2,17 +2,16 @@
 import Foundation
 import UIKit
 
-class MessageButton: UIButton, MSGSubView {
-    var entryType: EntryType = .none
-    var messageButtonType: MessageButtonType = .entry
-}
+// make button pop  white highlight on click,
+// make button partially transparent when disabled
 
 extension UIButton {
-    public func isDisabled() {
+    public func disableButton() {
         layer.opacity = 0.4
         isUserInteractionEnabled = false
+        self.showsTouchWhenHighlighted = false
     }
-    public func doesEnable() {
+    public func enableButton() {
         layer.opacity = 1.0
         self.showsTouchWhenHighlighted = true
         isUserInteractionEnabled = true

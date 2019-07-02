@@ -13,7 +13,6 @@
 		D758C2D022CBA0E80039190A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D758C2CE22CBA0E80039190A /* LaunchScreen.storyboard */; };
 		D758C2DB22CBA0E80039190A /* LinkefyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2DA22CBA0E80039190A /* LinkefyTests.swift */; };
 		D758C2E822CBA2220039190A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2E722CBA2220039190A /* Device.swift */; };
-		D758C30122CBA3770039190A /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2E922CBA3760039190A /* UIBezierPath.swift */; };
 		D758C30222CBA3770039190A /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2EA22CBA3760039190A /* UITextField.swift */; };
 		D758C30322CBA3770039190A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2EB22CBA3760039190A /* UIViewController.swift */; };
 		D758C30422CBA3770039190A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2EC22CBA3760039190A /* UIColor.swift */; };
@@ -23,7 +22,6 @@
 		D758C30822CBA3770039190A /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2F022CBA3760039190A /* UITextView.swift */; };
 		D758C30922CBA3770039190A /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2F122CBA3760039190A /* UIStackView.swift */; };
 		D758C30A22CBA3770039190A /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2F222CBA3760039190A /* Array.swift */; };
-		D758C30B22CBA3770039190A /* MSGSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2F322CBA3760039190A /* MSGSubView.swift */; };
 		D758C30C22CBA3770039190A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2F422CBA3760039190A /* UIView.swift */; };
 		D758C30D22CBA3770039190A /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2F522CBA3760039190A /* UISearchBar.swift */; };
 		D758C30E22CBA3770039190A /* Rects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2F622CBA3770039190A /* Rects.swift */; };
@@ -60,7 +58,6 @@
 		D758C2DA22CBA0E80039190A /* LinkefyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkefyTests.swift; sourceTree = "<group>"; };
 		D758C2DC22CBA0E80039190A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D758C2E722CBA2220039190A /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		D758C2E922CBA3760039190A /* UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIBezierPath.swift; path = Linkefy/helpers/Extensions/UIBezierPath.swift; sourceTree = SOURCE_ROOT; };
 		D758C2EA22CBA3760039190A /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITextField.swift; path = Linkefy/helpers/Extensions/UITextField.swift; sourceTree = SOURCE_ROOT; };
 		D758C2EB22CBA3760039190A /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Linkefy/helpers/Extensions/UIViewController.swift; sourceTree = SOURCE_ROOT; };
 		D758C2EC22CBA3760039190A /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Linkefy/helpers/Extensions/UIColor.swift; sourceTree = SOURCE_ROOT; };
@@ -70,7 +67,6 @@
 		D758C2F022CBA3760039190A /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITextView.swift; path = Linkefy/helpers/Extensions/UITextView.swift; sourceTree = SOURCE_ROOT; };
 		D758C2F122CBA3760039190A /* UIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStackView.swift; path = Linkefy/helpers/Extensions/UIStackView.swift; sourceTree = SOURCE_ROOT; };
 		D758C2F222CBA3760039190A /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Linkefy/helpers/Extensions/Array.swift; sourceTree = SOURCE_ROOT; };
-		D758C2F322CBA3760039190A /* MSGSubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSGSubView.swift; path = Linkefy/helpers/Extensions/MSGSubView.swift; sourceTree = SOURCE_ROOT; };
 		D758C2F422CBA3760039190A /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Linkefy/helpers/Extensions/UIView.swift; sourceTree = SOURCE_ROOT; };
 		D758C2F522CBA3760039190A /* UISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UISearchBar.swift; path = Linkefy/helpers/Extensions/UISearchBar.swift; sourceTree = SOURCE_ROOT; };
 		D758C2F622CBA3770039190A /* Rects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rects.swift; path = Linkefy/helpers/Extensions/Rects.swift; sourceTree = SOURCE_ROOT; };
@@ -161,12 +157,10 @@
 				D758C2EE22CBA3760039190A /* CGRect.swift */,
 				D758C2FD22CBA3770039190A /* CGSize.swift */,
 				D758C30022CBA3770039190A /* DateFormatter.swift */,
-				D758C2F322CBA3760039190A /* MSGSubView.swift */,
 				D758C2F822CBA3770039190A /* MutableCollection.swift */,
 				D758C2FB22CBA3770039190A /* Optional.swift */,
 				D758C2F622CBA3770039190A /* Rects.swift */,
 				D758C2FE22CBA3770039190A /* String.swift */,
-				D758C2E922CBA3760039190A /* UIBezierPath.swift */,
 				D758C2ED22CBA3760039190A /* UIbutton.swift */,
 				D758C2FA22CBA3770039190A /* UICollectionView.swift */,
 				D758C2EC22CBA3760039190A /* UIColor.swift */,
@@ -297,11 +291,9 @@
 				D758C30D22CBA3770039190A /* UISearchBar.swift in Sources */,
 				D758C31122CBA3770039190A /* CGPoint.swift in Sources */,
 				D758C31222CBA3770039190A /* UICollectionView.swift in Sources */,
-				D758C30B22CBA3770039190A /* MSGSubView.swift in Sources */,
 				D758C30322CBA3770039190A /* UIViewController.swift in Sources */,
 				D758C31722CBA3770039190A /* UILabel.swift in Sources */,
 				D758C30F22CBA3770039190A /* UITableVIew.swift in Sources */,
-				D758C30122CBA3770039190A /* UIBezierPath.swift in Sources */,
 				D758C30922CBA3770039190A /* UIStackView.swift in Sources */,
 				D758C31622CBA3770039190A /* String.swift in Sources */,
 				D758C30722CBA3770039190A /* UIImageView.swift in Sources */,

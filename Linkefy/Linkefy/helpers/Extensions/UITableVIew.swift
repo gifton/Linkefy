@@ -1,14 +1,10 @@
-//
-//  UITableVIew.swift
-//  Rethought
-//
-//  Created by Dev on 5/17/19.
-//  Copyright © 2019 Wesaturate. All rights reserved.
-//
 
 import Foundation
 import UIKit
 
+// like a collectionView, table views let us display lists using cells
+// table view is less complex, and doesnt allow for multiple cells in the same row
+// or horizontal scrolling
 extension UITableView {
     func register<T: UITableViewCell>(cellWithClass name: T.Type) {
         register(T.self, forCellReuseIdentifier: String(describing: name))

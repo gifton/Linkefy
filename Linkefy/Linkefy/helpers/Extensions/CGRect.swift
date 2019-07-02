@@ -1,22 +1,27 @@
 import Foundation
 import UIKit
 
+// CGRect is the object that handles location and size of elements
+// CGRect is made up of CGSize and CGPoint
+
+// using cgPoint and CGSize calculation, calculate difference in rects for progress, add to begining rect
 extension CGRect {
     func animateTo(_ endRect: CGRect, forProgress progress: CGFloat) -> CGRect {
-        if endRect.width == width {
+        // check if end width is the same as the start width, check point too
+        if endRect.size == size {
             return CGRect(origin: origin.animateTo(endRect.origin, forProgress: progress),
                           size: size)
         }
-        return CGRect(origin: origin.animate(toPoint: endRect.origin, forProgress: progress),
+        // if origin is the same
+        else if endRect.origin == origin {
+            return CGRect(origin: origin,
+                          size: size.animateTo(endRect.size, forProgress: progress))
+        }
+        
+        
+        return CGRect(origin: origin.animateTo(endRect.origin, forProgress: progress),
                       size: size.animateTo(endRect.size, forProgress: progress))
     }
     
-    func animate(toRect rect: CGRect, forProgress progress: CGFloat) -> CGRect {
-        if rect.width == width {
-            return CGRect(origin: origin.animate(toPoint: rect.origin, forProgress: progress),
-                          size: size)
-        }
-        return CGRect(origin: origin.animate(toPoint: rect.origin, forProgress: progress),
-                      size: size.animateTo(rect.size, forProgress: progress))
-    }
+    
 }

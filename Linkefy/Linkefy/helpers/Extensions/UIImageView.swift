@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 
+// image view is how images are placed on a screen in a view
 extension UIImageView {
     
     //get image from URL
