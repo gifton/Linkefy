@@ -35,6 +35,7 @@
 		D758C31622CBA3770039190A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2FE22CBA3770039190A /* String.swift */; };
 		D758C31722CBA3770039190A /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2FF22CBA3770039190A /* UILabel.swift */; };
 		D758C31822CBA3770039190A /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C30022CBA3770039190A /* DateFormatter.swift */; };
+		D758C31C22CBDAAE0039190A /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C31B22CBDAAE0039190A /* Link.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		D758C2FE22CBA3770039190A /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = Linkefy/helpers/Extensions/String.swift; sourceTree = SOURCE_ROOT; };
 		D758C2FF22CBA3770039190A /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Linkefy/helpers/Extensions/UILabel.swift; sourceTree = SOURCE_ROOT; };
 		D758C30022CBA3770039190A /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateFormatter.swift; path = Linkefy/helpers/Extensions/DateFormatter.swift; sourceTree = SOURCE_ROOT; };
+		D758C31B22CBDAAE0039190A /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,12 +123,10 @@
 		D758C2C422CBA0E50039190A /* Linkefy */ = {
 			isa = PBXGroup;
 			children = (
+				D758C31A22CBDAA20039190A /* model */,
+				D758C31922CBB4600039190A /* resources */,
 				D758C2E522CBA1CF0039190A /* helpers */,
-				D758C2C522CBA0E50039190A /* AppDelegate.swift */,
 				D758C2C722CBA0E50039190A /* ViewController.swift */,
-				D758C2CC22CBA0E80039190A /* Assets.xcassets */,
-				D758C2CE22CBA0E80039190A /* LaunchScreen.storyboard */,
-				D758C2D122CBA0E80039190A /* Info.plist */,
 			);
 			path = Linkefy;
 			sourceTree = "<group>";
@@ -176,6 +176,25 @@
 				D758C2EB22CBA3760039190A /* UIViewController.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		D758C31922CBB4600039190A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				D758C2D122CBA0E80039190A /* Info.plist */,
+				D758C2CE22CBA0E80039190A /* LaunchScreen.storyboard */,
+				D758C2C522CBA0E50039190A /* AppDelegate.swift */,
+				D758C2CC22CBA0E80039190A /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		D758C31A22CBDAA20039190A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D758C31B22CBDAAE0039190A /* Link.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +302,7 @@
 				D758C31322CBA3770039190A /* Optional.swift in Sources */,
 				D758C31022CBA3770039190A /* MutableCollection.swift in Sources */,
 				D758C30422CBA3770039190A /* UIColor.swift in Sources */,
+				D758C31C22CBDAAE0039190A /* Link.swift in Sources */,
 				D758C31522CBA3770039190A /* CGSize.swift in Sources */,
 				D758C30222CBA3770039190A /* UITextField.swift in Sources */,
 				D758C30822CBA3770039190A /* UITextView.swift in Sources */,
@@ -387,6 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -459,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL7TCK5Y58;
 				INFOPLIST_FILE = Linkefy/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = Linkefy/resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL7TCK5Y58;
 				INFOPLIST_FILE = Linkefy/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = Linkefy/resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
