@@ -10,6 +10,7 @@
 		D758202F22CBE4D0002FB0F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758202E22CBE4D0002FB0F0 /* User.swift */; };
 		D758203122CBE4ED002FB0F0 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758203022CBE4ED002FB0F0 /* Friends.swift */; };
 		D758203322CBE503002FB0F0 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758203222CBE503002FB0F0 /* Comment.swift */; };
+		D758203622CC369A002FB0F0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758203522CC369A002FB0F0 /* HomeViewModel.swift */; };
 		D758C2C622CBA0E50039190A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2C522CBA0E50039190A /* AppDelegate.swift */; };
 		D758C2C822CBA0E50039190A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2C722CBA0E50039190A /* ViewController.swift */; };
 		D758C2CD22CBA0E80039190A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D758C2CC22CBA0E80039190A /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		D758202E22CBE4D0002FB0F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D758203022CBE4ED002FB0F0 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		D758203222CBE503002FB0F0 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		D758203522CC369A002FB0F0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D758C2C222CBA0E50039190A /* Linkify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linkify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D758C2C522CBA0E50039190A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D758C2C722CBA0E50039190A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D758203422CC364E002FB0F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D758203522CC369A002FB0F0 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		D758C2B922CBA0E50039190A = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 		D758C2C422CBA0E50039190A /* Linkefy */ = {
 			isa = PBXGroup;
 			children = (
+				D758203422CC364E002FB0F0 /* ViewModels */,
 				D758C31A22CBDAA20039190A /* model */,
 				D758C31922CBB4600039190A /* resources */,
 				D758C2E522CBA1CF0039190A /* helpers */,
@@ -319,6 +330,7 @@
 				D758C30E22CBA3770039190A /* Rects.swift in Sources */,
 				D758203322CBE503002FB0F0 /* Comment.swift in Sources */,
 				D758C30522CBA3770039190A /* UIbutton.swift in Sources */,
+				D758203622CC369A002FB0F0 /* HomeViewModel.swift in Sources */,
 				D758C30D22CBA3770039190A /* UISearchBar.swift in Sources */,
 				D758C31122CBA3770039190A /* CGPoint.swift in Sources */,
 				D758C31222CBA3770039190A /* UICollectionView.swift in Sources */,
