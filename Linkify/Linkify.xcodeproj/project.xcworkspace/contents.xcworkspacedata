@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Linkefy.xcodeproj">
+      location = "self:/Users/dev/Developer/projects/swift/Linkify/Linkify/Linkify.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D758202F22CBE4D0002FB0F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758202E22CBE4D0002FB0F0 /* User.swift */; };
+		D758203122CBE4ED002FB0F0 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758203022CBE4ED002FB0F0 /* Friends.swift */; };
+		D758203322CBE503002FB0F0 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758203222CBE503002FB0F0 /* Comment.swift */; };
 		D758C2C622CBA0E50039190A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2C522CBA0E50039190A /* AppDelegate.swift */; };
 		D758C2C822CBA0E50039190A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D758C2C722CBA0E50039190A /* ViewController.swift */; };
 		D758C2CD22CBA0E80039190A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D758C2CC22CBA0E80039190A /* Assets.xcassets */; };
@@ -49,13 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D758C2C222CBA0E50039190A /* Linkefy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linkefy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D758202E22CBE4D0002FB0F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D758203022CBE4ED002FB0F0 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		D758203222CBE503002FB0F0 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		D758C2C222CBA0E50039190A /* Linkify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linkify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D758C2C522CBA0E50039190A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D758C2C722CBA0E50039190A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D758C2CC22CBA0E80039190A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D758C2CF22CBA0E80039190A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D758C2D122CBA0E80039190A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D758C2D622CBA0E80039190A /* LinkefyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkefyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D758C2D622CBA0E80039190A /* LinkifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D758C2DA22CBA0E80039190A /* LinkefyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkefyTests.swift; sourceTree = "<group>"; };
 		D758C2DC22CBA0E80039190A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D758C2E722CBA2220039190A /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
@@ -114,8 +120,8 @@
 		D758C2C322CBA0E50039190A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D758C2C222CBA0E50039190A /* Linkefy.app */,
-				D758C2D622CBA0E80039190A /* LinkefyTests.xctest */,
+				D758C2C222CBA0E50039190A /* Linkify.app */,
+				D758C2D622CBA0E80039190A /* LinkifyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +199,9 @@
 			isa = PBXGroup;
 			children = (
 				D758C31B22CBDAAE0039190A /* Link.swift */,
+				D758203022CBE4ED002FB0F0 /* Friends.swift */,
+				D758203222CBE503002FB0F0 /* Comment.swift */,
+				D758202E22CBE4D0002FB0F0 /* User.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -200,9 +209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D758C2C122CBA0E50039190A /* Linkefy */ = {
+		D758C2C122CBA0E50039190A /* Linkify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D758C2DF22CBA0E80039190A /* Build configuration list for PBXNativeTarget "Linkefy" */;
+			buildConfigurationList = D758C2DF22CBA0E80039190A /* Build configuration list for PBXNativeTarget "Linkify" */;
 			buildPhases = (
 				D758C2BE22CBA0E50039190A /* Sources */,
 				D758C2BF22CBA0E50039190A /* Frameworks */,
@@ -212,14 +221,14 @@
 			);
 			dependencies = (
 			);
-			name = Linkefy;
+			name = Linkify;
 			productName = Linkefy;
-			productReference = D758C2C222CBA0E50039190A /* Linkefy.app */;
+			productReference = D758C2C222CBA0E50039190A /* Linkify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D758C2D522CBA0E80039190A /* LinkefyTests */ = {
+		D758C2D522CBA0E80039190A /* LinkifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D758C2E222CBA0E80039190A /* Build configuration list for PBXNativeTarget "LinkefyTests" */;
+			buildConfigurationList = D758C2E222CBA0E80039190A /* Build configuration list for PBXNativeTarget "LinkifyTests" */;
 			buildPhases = (
 				D758C2D222CBA0E80039190A /* Sources */,
 				D758C2D322CBA0E80039190A /* Frameworks */,
@@ -230,9 +239,9 @@
 			dependencies = (
 				D758C2D822CBA0E80039190A /* PBXTargetDependency */,
 			);
-			name = LinkefyTests;
+			name = LinkifyTests;
 			productName = LinkefyTests;
-			productReference = D758C2D622CBA0E80039190A /* LinkefyTests.xctest */;
+			productReference = D758C2D622CBA0E80039190A /* LinkifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D758C2BD22CBA0E50039190A /* Build configuration list for PBXProject "Linkefy" */;
+			buildConfigurationList = D758C2BD22CBA0E50039190A /* Build configuration list for PBXProject "Linkify" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,8 +276,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D758C2C122CBA0E50039190A /* Linkefy */,
-				D758C2D522CBA0E80039190A /* LinkefyTests */,
+				D758C2C122CBA0E50039190A /* Linkify */,
+				D758C2D522CBA0E80039190A /* LinkifyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,15 +311,18 @@
 				D758C31322CBA3770039190A /* Optional.swift in Sources */,
 				D758C31022CBA3770039190A /* MutableCollection.swift in Sources */,
 				D758C30422CBA3770039190A /* UIColor.swift in Sources */,
+				D758202F22CBE4D0002FB0F0 /* User.swift in Sources */,
 				D758C31C22CBDAAE0039190A /* Link.swift in Sources */,
 				D758C31522CBA3770039190A /* CGSize.swift in Sources */,
 				D758C30222CBA3770039190A /* UITextField.swift in Sources */,
 				D758C30822CBA3770039190A /* UITextView.swift in Sources */,
 				D758C30E22CBA3770039190A /* Rects.swift in Sources */,
+				D758203322CBE503002FB0F0 /* Comment.swift in Sources */,
 				D758C30522CBA3770039190A /* UIbutton.swift in Sources */,
 				D758C30D22CBA3770039190A /* UISearchBar.swift in Sources */,
 				D758C31122CBA3770039190A /* CGPoint.swift in Sources */,
 				D758C31222CBA3770039190A /* UICollectionView.swift in Sources */,
+				D758203122CBE4ED002FB0F0 /* Friends.swift in Sources */,
 				D758C30322CBA3770039190A /* UIViewController.swift in Sources */,
 				D758C31722CBA3770039190A /* UILabel.swift in Sources */,
 				D758C30F22CBA3770039190A /* UITableVIew.swift in Sources */,
@@ -339,7 +351,7 @@
 /* Begin PBXTargetDependency section */
 		D758C2D822CBA0E80039190A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D758C2C122CBA0E50039190A /* Linkefy */;
+			target = D758C2C122CBA0E50039190A /* Linkify */;
 			targetProxy = D758C2D722CBA0E80039190A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.Linkefy;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.Linkify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,7 +516,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.Linkefy;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.Linkify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -528,7 +540,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linkefy.app/Linkefy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linkify.app/Linkify";
 			};
 			name = Debug;
 		};
@@ -549,14 +561,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linkefy.app/Linkefy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linkify.app/Linkify";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D758C2BD22CBA0E50039190A /* Build configuration list for PBXProject "Linkefy" */ = {
+		D758C2BD22CBA0E50039190A /* Build configuration list for PBXProject "Linkify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D758C2DD22CBA0E80039190A /* Debug */,
@@ -565,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D758C2DF22CBA0E80039190A /* Build configuration list for PBXNativeTarget "Linkefy" */ = {
+		D758C2DF22CBA0E80039190A /* Build configuration list for PBXNativeTarget "Linkify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D758C2E022CBA0E80039190A /* Debug */,
@@ -574,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D758C2E222CBA0E80039190A /* Build configuration list for PBXNativeTarget "LinkefyTests" */ = {
+		D758C2E222CBA0E80039190A /* Build configuration list for PBXNativeTarget "LinkifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D758C2E322CBA0E80039190A /* Debug */,
