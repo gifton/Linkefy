@@ -18,6 +18,6 @@ struct Comment: Codable {
         case content
         case date
         case user
-        case link
+        case link = "associated_link"
     }
 }

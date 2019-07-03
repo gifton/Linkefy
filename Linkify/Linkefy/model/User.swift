@@ -16,11 +16,11 @@ struct User: Codable {
     }
     
     enum CodingKeys: String, CodingKey {
-        case name
+        case name = "full_name"
         case username
-        case joinDate
+        case joinDate = "join_date"
         case email
-        case avatar
+        case avatar = "icon_url"
     }
     
 }
